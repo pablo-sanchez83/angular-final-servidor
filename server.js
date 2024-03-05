@@ -1,21 +1,19 @@
 const express = require("express");
 const fs = require("fs");
 const cors = require("cors");
-
 const app = express();
 const port = 3000;
-
 const corsOptions = {
   origin: "http://localhost:4200",
   optionsSuccessStatus: 204,
-  methods: "GET, POST, PUT, DELETE",
+  methods: "GET, POST",
 };
-
 app.use(cors(corsOptions));
-
 app.use(express.json());
 
-app.get("/usuarios", (res) => {
+app.get("/usuarios", (req, res) => {
+  const page = parseInt(req.query.page) || 0;
+  const perPage = parseInt(req.query.perPage) || 10;
 
   fs.readFile("db.json", "utf8", (err, data) => {
     if (err) {
@@ -50,15 +48,14 @@ app.post("/usuarios", (req, res) => {
       res.status(500).send("Internal Server Error");
       return;
     }
-
     const jsonData = JSON.parse(data);
 
     const maxId = jsonData.usuarios.reduce(
-      (max, persona) => Math.max(max, persona.id),
+      (max, usuario) => Math.max(max, usuario.id),
       0
     );
 
-    const nuevaPersona = {
+    const nuevoUsuario = {
       id: maxId + 1,
       nombre,
       apellido,
@@ -67,7 +64,7 @@ app.post("/usuarios", (req, res) => {
       ocupacion,
     };
 
-    jsonData.usuarios.push(nuevaPersona);
+    jsonData.usuarios.push(nuevoUsuario);
 
     fs.writeFile("db.json", JSON.stringify(jsonData), (err) => {
       if (err) {
@@ -75,81 +72,7 @@ app.post("/usuarios", (req, res) => {
         res.status(500).send("Internal Server Error");
         return;
       }
-
-      res.status(201).json(nuevaPersona);
-    });
-  });
-});
-
-app.put("/usuarios/:id", (req, res) => {
-  const id = parseInt(req.params.id);
-  const { nombre, apellido, edad, ciudad, ocupacion } = req.body;
-
-  fs.readFile("db.json", "utf8", (err, data) => {
-    if (err) {
-      console.log(err);
-      res.status(500).send("Internal Server Error");
-      return;
-    }
-
-    const jsonData = JSON.parse(data);
-
-    const index = jsonData.usuarios.findIndex((persona) => persona.id === id);
-
-    if (index === -1) {
-      res.status(404).send("Not Found");
-      return;
-    }
-
-    jsonData.usuarios[index] = {
-      id,
-      nombre,
-      apellido,
-      edad,
-      ciudad,
-      ocupacion,
-    };
-
-    fs.writeFile("db.json", JSON.stringify(jsonData), (err) => {
-      if (err) {
-        console.log(err);
-        res.status(500).send("Internal Server Error");
-        return;
-      }
-
-      res.status(200).json(jsonData.usuarios[index]);
-    });
-  });
-});
-
-app.delete("/usuarios/:id", (res) => {
-
-  fs.readFile("db.json", "utf8", (err, data) => {
-    if (err) {
-      console.log(err);
-      res.status(500).send("Internal Server Error");
-      return;
-    }
-
-    const jsonData = JSON.parse(data);
-
-    const index = jsonData.usuarios.findIndex((item) => item.id === id);
-
-    if (index === -1) {
-      res.status(404).send("Not Found");
-      return;
-    }
-
-    jsonData.usuarios.splice(index, 1);
-
-    fs.writeFile("db.json", JSON.stringify(jsonData), (err) => {
-      if (err) {
-        console.log(err);
-        res.status(500).send("Internal Server Error");
-        return;
-      }
-
-      res.status(204).send();
+      res.status(201).json(nuevoUsuario);
     });
   });
 });
