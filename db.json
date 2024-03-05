@@ -1,1 +1,149 @@
-{"items":[{"id":1,"image":"assets/images/products/image1.jpg","name":"Black Hoodie","price":"24","rating":5},{"id":2,"name":"Branded Shoes","image":"assets/images/products/image2.jpg","price":"13.5","rating":4},{"id":3,"image":"assets/images/products/image3.jpg","name":"White","price":"85.0","rating":3},{"id":4,"image":"assets/images/products/image4.jpg","name":"Gray Dress 1","price":"625","rating":3},{"id":5,"name":"Black T-Shirt (Mens)","image":"assets/images/products/image5.jpg","price":"55.0","rating":5},{"id":6,"name":"Jeans Jacket","image":"assets/images/products/image6.jpg","price":"115.0","rating":4},{"id":7,"name":"Black T-Shirt (Womens)","image":"assets/images/products/image7.jpg","price":"25.0","rating":3},{"id":8,"name":"Beige Trench Coat","image":"assets/images/products/image8.jpg","price":"52.0","rating":1},{"id":9,"name":"Stylish Shoes","image":"assets/images/products/image9.jpg","price":"32.0","rating":2},{"id":10,"name":"Stylish Shoes - B","image":"assets/images/products/image10.jpg","price":"55.0","rating":5},{"id":11,"name":"Beanie Black","image":"assets/images/products/image11.jpg","price":"15.0","rating":1},{"id":12,"name":"Beanie Orange","image":"assets/images/products/image12.jpg","price":"12.5","rating":2},{"id":13,"name":"Beanie Red","image":"assets/images/products/image13.jpg","price":"14.5","rating":4},{"id":15,"name":"Cyan Long Sleeve Shirt","image":"assets/images/products/image15.jpg","price":"15.5","rating":5},{"id":16,"name":"Yellow Raincoat","image":"assets/images/products/image16.jpg","price":"12.5","rating":3}]}
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "edad": 34,
+        "ciudad": "Madrid",
+        "ocupación": "Ingeniero de software"
+      },
+      {
+        "id": 2,
+        "nombre": "Ana",
+        "apellido": "Gómez",
+        "edad": 28,
+        "ciudad": "Barcelona",
+        "ocupación": "Diseñadora gráfica"
+      },
+      {
+        "id": 3,
+        "nombre": "Carlos",
+        "apellido": "Martínez",
+        "edad": 42,
+        "ciudad": "Valencia",
+        "ocupación": "Arquitecto"
+      },
+      {
+        "id": 4,
+        "nombre": "Lucía",
+        "apellido": "Morales",
+        "edad": 36,
+        "ciudad": "Sevilla",
+        "ocupación": "Médica"
+      },
+      {
+        "id": 5,
+        "nombre": "David",
+        "apellido": "Ortega",
+        "edad": 24,
+        "ciudad": "Zaragoza",
+        "ocupación": "Estudiante"
+      },
+      {
+        "id": 6,
+        "nombre": "María",
+        "apellido": "Hernández",
+        "edad": 45,
+        "ciudad": "Málaga",
+        "ocupación": "Abogada"
+      },
+      {
+        "id": 7,
+        "nombre": "Javier",
+        "apellido": "López",
+        "edad": 33,
+        "ciudad": "Bilbao",
+        "ocupación": "Economista"
+      },
+      {
+        "id": 8,
+        "nombre": "Laura",
+        "apellido": "Torres",
+        "edad": 29,
+        "ciudad": "Valladolid",
+        "ocupación": "Profesora"
+      },
+      {
+        "id": 9,
+        "nombre": "Sergio",
+        "apellido": "Romero",
+        "edad": 40,
+        "ciudad": "Córdoba",
+        "ocupación": "Chef"
+      },
+      {
+        "id": 10,
+        "nombre": "Carmen",
+        "apellido": "Santos",
+        "edad": 31,
+        "ciudad": "Granada",
+        "ocupación": "Ingeniera civil"
+      },
+      {
+        "id": 11,
+        "nombre": "Fernando",
+        "apellido": "Gutiérrez",
+        "edad": 38,
+        "ciudad": "A Coruña",
+        "ocupación": "Periodista"
+      },
+      {
+        "id": 12,
+        "nombre": "Patricia",
+        "apellido": "Delgado",
+        "edad": 27,
+        "ciudad": "Vigo",
+        "ocupación": "Psicóloga"
+      },
+      {
+        "id": 13,
+        "nombre": "Alberto",
+        "apellido": "Castro",
+        "edad": 35,
+        "ciudad": "Gijón",
+        "ocupación": "Fotógrafo"
+      },
+      {
+        "id": 14,
+        "nombre": "Sofía",
+        "apellido": "Guerrero",
+        "edad": 32,
+        "ciudad": "Murcia",
+        "ocupación": "Dentista"
+      },
+      {
+        "id": 15,
+        "nombre": "Daniel",
+        "apellido": "Navarro",
+        "edad": 39,
+        "ciudad": "Palma",
+        "ocupación": "Piloto"
+      },
+      {
+        "id": 16,
+        "nombre": "Teresa",
+        "apellido": "Ramos",
+        "edad": 41,
+        "ciudad": "Las Palmas",
+        "ocupación": "Veterinaria"
+      },
+      {
+        "id": 17,
+        "nombre": "Rafael",
+        "apellido": "Ruiz",
+        "edad": 30,
+        "ciudad": "Pamplona",
+        "ocupación": "Actor"
+      },
+      {
+        "id": 18,
+        "nombre": "Isabel",
+        "apellido": "Gil",
+        "edad": 37,
+        "ciudad": "San Sebastián",
+        "ocupación": "Escritora"
+      }
+    ]
+  }
+  
