@@ -15,9 +15,7 @@ app.use(cors(corsOptions));
 
 app.use(express.json());
 
-app.get("/usuarios", (req, res) => {
-  const page = parseInt(req.query.page) || 0;
-  const perPage = parseInt(req.query.perPage) || 10;
+app.get("/usuarios", (res) => {
 
   fs.readFile("db.json", "utf8", (err, data) => {
     if (err) {
@@ -124,8 +122,7 @@ app.put("/usuarios/:id", (req, res) => {
   });
 });
 
-app.delete("/usuarios/:id", (req, res) => {
-  const id = parseInt(req.params.id);
+app.delete("/usuarios/:id", (res) => {
 
   fs.readFile("db.json", "utf8", (err, data) => {
     if (err) {
