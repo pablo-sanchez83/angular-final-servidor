@@ -6,7 +6,7 @@
         "apellido": "Pérez",
         "edad": 34,
         "ciudad": "Madrid",
-        "ocupación": "Ingeniero de software"
+        "ocupacion": "Ingeniero de software"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "apellido": "Gómez",
         "edad": 28,
         "ciudad": "Barcelona",
-        "ocupación": "Diseñadora gráfica"
+        "ocupacion": "Diseñadora gráfica"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "apellido": "Martínez",
         "edad": 42,
         "ciudad": "Valencia",
-        "ocupación": "Arquitecto"
+        "ocupacion": "Arquitecto"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "apellido": "Morales",
         "edad": 36,
         "ciudad": "Sevilla",
-        "ocupación": "Médica"
+        "ocupacion": "Médica"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "apellido": "Ortega",
         "edad": 24,
         "ciudad": "Zaragoza",
-        "ocupación": "Estudiante"
+        "ocupacion": "Estudiante"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "apellido": "Hernández",
         "edad": 45,
         "ciudad": "Málaga",
-        "ocupación": "Abogada"
+        "ocupacion": "Abogada"
       },
       {
         "id": 7,
@@ -54,7 +54,7 @@
         "apellido": "López",
         "edad": 33,
         "ciudad": "Bilbao",
-        "ocupación": "Economista"
+        "ocupacion": "Economista"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "apellido": "Torres",
         "edad": 29,
         "ciudad": "Valladolid",
-        "ocupación": "Profesora"
+        "ocupacion": "Profesora"
       },
       {
         "id": 9,
@@ -70,7 +70,7 @@
         "apellido": "Romero",
         "edad": 40,
         "ciudad": "Córdoba",
-        "ocupación": "Chef"
+        "ocupacion": "Chef"
       },
       {
         "id": 10,
@@ -78,7 +78,7 @@
         "apellido": "Santos",
         "edad": 31,
         "ciudad": "Granada",
-        "ocupación": "Ingeniera civil"
+        "ocupacion": "Ingeniera civil"
       },
       {
         "id": 11,
@@ -86,7 +86,7 @@
         "apellido": "Gutiérrez",
         "edad": 38,
         "ciudad": "A Coruña",
-        "ocupación": "Periodista"
+        "ocupacion": "Periodista"
       },
       {
         "id": 12,
@@ -94,7 +94,7 @@
         "apellido": "Delgado",
         "edad": 27,
         "ciudad": "Vigo",
-        "ocupación": "Psicóloga"
+        "ocupacion": "Psicóloga"
       },
       {
         "id": 13,
@@ -102,7 +102,7 @@
         "apellido": "Castro",
         "edad": 35,
         "ciudad": "Gijón",
-        "ocupación": "Fotógrafo"
+        "ocupacion": "Fotógrafo"
       },
       {
         "id": 14,
@@ -110,7 +110,7 @@
         "apellido": "Guerrero",
         "edad": 32,
         "ciudad": "Murcia",
-        "ocupación": "Dentista"
+        "ocupacion": "Dentista"
       },
       {
         "id": 15,
@@ -118,7 +118,7 @@
         "apellido": "Navarro",
         "edad": 39,
         "ciudad": "Palma",
-        "ocupación": "Piloto"
+        "ocupacion": "Piloto"
       },
       {
         "id": 16,
@@ -126,7 +126,7 @@
         "apellido": "Ramos",
         "edad": 41,
         "ciudad": "Las Palmas",
-        "ocupación": "Veterinaria"
+        "ocupacion": "Veterinaria"
       },
       {
         "id": 17,
@@ -134,7 +134,7 @@
         "apellido": "Ruiz",
         "edad": 30,
         "ciudad": "Pamplona",
-        "ocupación": "Actor"
+        "ocupacion": "Actor"
       },
       {
         "id": 18,
@@ -142,7 +142,7 @@
         "apellido": "Gil",
         "edad": 37,
         "ciudad": "San Sebastián",
-        "ocupación": "Escritora"
+        "ocupacion": "Escritora"
       }
     ]
   }

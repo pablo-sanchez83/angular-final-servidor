@@ -44,7 +44,7 @@ app.get("/usuarios", (req, res) => {
 });
 
 app.post("/usuarios", (req, res) => {
-  const { nombre, apellido, edad, ciudad, ocupación } = req.body;
+  const { nombre, apellido, edad, ciudad, ocupacion } = req.body;
 
   fs.readFile("db.json", "utf8", (err, data) => {
     if (err) {
@@ -66,7 +66,7 @@ app.post("/usuarios", (req, res) => {
       apellido,
       edad,
       ciudad,
-      ocupación,
+      ocupacion,
     };
 
     jsonData.usuarios.push(nuevaPersona);
@@ -85,7 +85,7 @@ app.post("/usuarios", (req, res) => {
 
 app.put("/usuarios/:id", (req, res) => {
   const id = parseInt(req.params.id);
-  const { nombre, apellido, edad, ciudad, ocupación } = req.body;
+  const { nombre, apellido, edad, ciudad, ocupacion } = req.body;
 
   fs.readFile("db.json", "utf8", (err, data) => {
     if (err) {
@@ -109,7 +109,7 @@ app.put("/usuarios/:id", (req, res) => {
       apellido,
       edad,
       ciudad,
-      ocupación,
+      ocupacion,
     };
 
     fs.writeFile("db.json", JSON.stringify(jsonData), (err) => {
