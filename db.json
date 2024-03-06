@@ -1,149 +1,148 @@
 {
     "usuarios": [
-      {
-        "id": 1,
-        "nombre": "Juan",
-        "apellido": "Pérez",
-        "edad": 34,
-        "ciudad": "Madrid",
-        "ocupacion": "Ingeniero de software"
-      },
-      {
-        "id": 2,
-        "nombre": "Ana",
-        "apellido": "Gómez",
-        "edad": 28,
-        "ciudad": "Barcelona",
-        "ocupacion": "Diseñadora gráfica"
-      },
-      {
-        "id": 3,
-        "nombre": "Carlos",
-        "apellido": "Martínez",
-        "edad": 42,
-        "ciudad": "Valencia",
-        "ocupacion": "Arquitecto"
-      },
-      {
-        "id": 4,
-        "nombre": "Lucía",
-        "apellido": "Morales",
-        "edad": 36,
-        "ciudad": "Sevilla",
-        "ocupacion": "Médica"
-      },
-      {
-        "id": 5,
-        "nombre": "David",
-        "apellido": "Ortega",
-        "edad": 24,
-        "ciudad": "Zaragoza",
-        "ocupacion": "Estudiante"
-      },
-      {
-        "id": 6,
-        "nombre": "María",
-        "apellido": "Hernández",
-        "edad": 45,
-        "ciudad": "Málaga",
-        "ocupacion": "Abogada"
-      },
-      {
-        "id": 7,
-        "nombre": "Javier",
-        "apellido": "López",
-        "edad": 33,
-        "ciudad": "Bilbao",
-        "ocupacion": "Economista"
-      },
-      {
-        "id": 8,
-        "nombre": "Laura",
-        "apellido": "Torres",
-        "edad": 29,
-        "ciudad": "Valladolid",
-        "ocupacion": "Profesora"
-      },
-      {
-        "id": 9,
-        "nombre": "Sergio",
-        "apellido": "Romero",
-        "edad": 40,
-        "ciudad": "Córdoba",
-        "ocupacion": "Chef"
-      },
-      {
-        "id": 10,
-        "nombre": "Carmen",
-        "apellido": "Santos",
-        "edad": 31,
-        "ciudad": "Granada",
-        "ocupacion": "Ingeniera civil"
-      },
-      {
-        "id": 11,
-        "nombre": "Fernando",
-        "apellido": "Gutiérrez",
-        "edad": 38,
-        "ciudad": "A Coruña",
-        "ocupacion": "Periodista"
-      },
-      {
-        "id": 12,
-        "nombre": "Patricia",
-        "apellido": "Delgado",
-        "edad": 27,
-        "ciudad": "Vigo",
-        "ocupacion": "Psicóloga"
-      },
-      {
-        "id": 13,
-        "nombre": "Alberto",
-        "apellido": "Castro",
-        "edad": 35,
-        "ciudad": "Gijón",
-        "ocupacion": "Fotógrafo"
-      },
-      {
-        "id": 14,
-        "nombre": "Sofía",
-        "apellido": "Guerrero",
-        "edad": 32,
-        "ciudad": "Murcia",
-        "ocupacion": "Dentista"
-      },
-      {
-        "id": 15,
-        "nombre": "Daniel",
-        "apellido": "Navarro",
-        "edad": 39,
-        "ciudad": "Palma",
-        "ocupacion": "Piloto"
-      },
-      {
-        "id": 16,
-        "nombre": "Teresa",
-        "apellido": "Ramos",
-        "edad": 41,
-        "ciudad": "Las Palmas",
-        "ocupacion": "Veterinaria"
-      },
-      {
-        "id": 17,
-        "nombre": "Rafael",
-        "apellido": "Ruiz",
-        "edad": 30,
-        "ciudad": "Pamplona",
-        "ocupacion": "Actor"
-      },
-      {
-        "id": 18,
-        "nombre": "Isabel",
-        "apellido": "Gil",
-        "edad": 37,
-        "ciudad": "San Sebastián",
-        "ocupacion": "Escritora"
-      }
+        {
+            "id": 1,
+            "nombre": "Juan",
+            "apellido": "Pérez",
+            "edad": 34,
+            "ciudad": "Madrid",
+            "ocupacion": "Ingeniero de software"
+        },
+        {
+            "id": 2,
+            "nombre": "Ana",
+            "apellido": "Gómez",
+            "edad": 28,
+            "ciudad": "Barcelona",
+            "ocupacion": "Diseñadora gráfica"
+        },
+        {
+            "id": 3,
+            "nombre": "Carlos",
+            "apellido": "Martínez",
+            "edad": 42,
+            "ciudad": "Valencia",
+            "ocupacion": "Arquitecto"
+        },
+        {
+            "id": 4,
+            "nombre": "Lucía",
+            "apellido": "Morales",
+            "edad": 36,
+            "ciudad": "Sevilla",
+            "ocupacion": "Médica"
+        },
+        {
+            "id": 5,
+            "nombre": "David",
+            "apellido": "Ortega",
+            "edad": 24,
+            "ciudad": "Zaragoza",
+            "ocupacion": "Estudiante"
+        },
+        {
+            "id": 6,
+            "nombre": "María",
+            "apellido": "Hernández",
+            "edad": 45,
+            "ciudad": "Málaga",
+            "ocupacion": "Abogada"
+        },
+        {
+            "id": 7,
+            "nombre": "Javier",
+            "apellido": "López",
+            "edad": 33,
+            "ciudad": "Bilbao",
+            "ocupacion": "Economista"
+        },
+        {
+            "id": 8,
+            "nombre": "Laura",
+            "apellido": "Torres",
+            "edad": 29,
+            "ciudad": "Valladolid",
+            "ocupacion": "Profesora"
+        },
+        {
+            "id": 9,
+            "nombre": "Sergio",
+            "apellido": "Romero",
+            "edad": 40,
+            "ciudad": "Córdoba",
+            "ocupacion": "Chef"
+        },
+        {
+            "id": 10,
+            "nombre": "Carmen",
+            "apellido": "Santos",
+            "edad": 31,
+            "ciudad": "Granada",
+            "ocupacion": "Ingeniera civil"
+        },
+        {
+            "id": 11,
+            "nombre": "Fernando",
+            "apellido": "Gutiérrez",
+            "edad": 38,
+            "ciudad": "A Coruña",
+            "ocupacion": "Periodista"
+        },
+        {
+            "id": 12,
+            "nombre": "Patricia",
+            "apellido": "Delgado",
+            "edad": 27,
+            "ciudad": "Vigo",
+            "ocupacion": "Psicóloga"
+        },
+        {
+            "id": 13,
+            "nombre": "Alberto",
+            "apellido": "Castro",
+            "edad": 35,
+            "ciudad": "Gijón",
+            "ocupacion": "Fotógrafo"
+        },
+        {
+            "id": 14,
+            "nombre": "Sofía",
+            "apellido": "Guerrero",
+            "edad": 32,
+            "ciudad": "Murcia",
+            "ocupacion": "Dentista"
+        },
+        {
+            "id": 15,
+            "nombre": "Daniel",
+            "apellido": "Navarro",
+            "edad": 39,
+            "ciudad": "Palma",
+            "ocupacion": "Piloto"
+        },
+        {
+            "id": 16,
+            "nombre": "Teresa",
+            "apellido": "Ramos",
+            "edad": 41,
+            "ciudad": "Las Palmas",
+            "ocupacion": "Veterinaria"
+        },
+        {
+            "id": 17,
+            "nombre": "Rafael",
+            "apellido": "Ruiz",
+            "edad": 30,
+            "ciudad": "Pamplona",
+            "ocupacion": "Actor"
+        },
+        {
+            "id": 18,
+            "nombre": "Isabel",
+            "apellido": "Gil",
+            "edad": 37,
+            "ciudad": "San Sebastián",
+            "ocupacion": "Escritora"
+        }
     ]
-  }
-  
+}

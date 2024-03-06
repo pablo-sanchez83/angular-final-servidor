@@ -6,7 +6,7 @@ const port = 3000;
 const corsOptions = {
   origin: "http://localhost:4200",
   optionsSuccessStatus: 204,
-  methods: "GET, POST",
+  methods: "GET, POST, DELETE",
 };
 app.use(cors(corsOptions));
 app.use(express.json());
@@ -76,6 +76,42 @@ app.post("/usuarios", (req, res) => {
     });
   });
 });
+app.delete("/usuarios/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+
+  fs.readFile("db.json", "utf8", (err, data) => {
+    if (err) {
+      console.log(err);
+      res.status(500).json({ message: "Internal Server Error" });
+      return;
+    }
+
+    let jsonData = JSON.parse(data);
+    const usuarioIndex = jsonData.usuarios.findIndex(usuario => usuario.id === id);
+
+    if (usuarioIndex === -1) {
+      res.status(404).json({ message: "Usuario no encontrado" });
+      return;
+    }
+
+    jsonData.usuarios.splice(usuarioIndex, 1);
+
+    // Ajustar las ID de los usuarios restantes
+    jsonData.usuarios = jsonData.usuarios.map((usuario, index) => {
+      return { ...usuario, id: index + 1 };
+    });
+
+    fs.writeFile("db.json", JSON.stringify(jsonData), (err) => {
+      if (err) {
+        console.log(err);
+        res.status(500).json({ message: "Internal Server Error" });
+        return;
+      }
+      res.status(200).json({ message: "Usuario eliminado con éxito" });
+    });
+  });
+});
+
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
